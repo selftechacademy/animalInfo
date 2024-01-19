@@ -1,0 +1,36 @@
+.popup-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(66, 66, 66);
+  /* for children */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-text {
+  width: 80%;
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-size: 25px;
+  background-color: white;
+  position: relative;
+}
+
+.popup-text img {
+  max-width: 50%;
+  float: left;
+}
+
+#close-popup {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  font-size: 28px;
+}
