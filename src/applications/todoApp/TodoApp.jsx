@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import TodoItem from "../todoItem/TodoItem";
+import TodoItem from "../../components/todoItem/TodoItem";
 
 import "./todoApp.style.css";
 
